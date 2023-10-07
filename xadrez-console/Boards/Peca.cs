@@ -1,6 +1,6 @@
 ﻿namespace xadrez_console.Boards
 {
-    public class Peca
+    public abstract class Peca
     {
         public Posicao PosicaoPeca { get; set; }
         public Cor CorPeca { get; protected set; }
@@ -19,5 +19,7 @@
         {
             qtMovimentos++;
         }
+
+        public abstract bool[,] MovimentosPossiveis();
     }
 }
