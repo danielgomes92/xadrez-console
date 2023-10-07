@@ -49,6 +49,7 @@
     <Compile Include="Boards\Cor.cs" />
     <Compile Include="Boards\Peca.cs" />
     <Compile Include="Boards\Posicao.cs" />
+    <Compile Include="Tela.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
