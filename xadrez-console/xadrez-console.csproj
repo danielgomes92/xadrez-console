@@ -50,6 +50,8 @@
     <Compile Include="Boards\Peca.cs" />
     <Compile Include="Boards\Posicao.cs" />
     <Compile Include="Tela.cs" />
+    <Compile Include="Xadrez\Rei.cs" />
+    <Compile Include="Xadrez\Torre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
