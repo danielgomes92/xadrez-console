@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boards\Tabuleiro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tabuleiro\Posicao.cs" />
+    <Compile Include="Boards\Cor.cs" />
+    <Compile Include="Boards\Peca.cs" />
+    <Compile Include="Boards\Posicao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
