@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boards\Tabuleiro.cs" />
+    <Compile Include="Boards\TabuleiroException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Boards\Cor.cs" />
