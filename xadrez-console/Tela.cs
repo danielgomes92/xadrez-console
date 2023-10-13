@@ -61,6 +61,7 @@ namespace xadrez_console
                 }
                 Console.WriteLine();
             }
+			Console.WriteLine("__|_|_|_|_|_|_|_|");
             Console.WriteLine("  A B C D E F G H");
         }
 
